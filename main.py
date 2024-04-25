@@ -28,7 +28,7 @@ while True:
         if __name__=="__main__":
             url = links.links[sorteador.sorteador()]
 
-            caminho_da_pasta = "C:\\Users\\breno\\Downloads"
+            caminho_da_pasta = "C:\\Users\\seu_usuario\\Downloads"
 
             if not os.path.exists(caminho_da_pasta):
                 os.makedirs(caminho_da_pasta)
